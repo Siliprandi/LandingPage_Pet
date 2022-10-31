@@ -1,4 +1,4 @@
-# LandingPage_Pet
+# Landing Page - PetShop
 
 
 Neste projeto, estou desenvolvendo uma landing page do zero utilizando somente o HTML e CSS, com o objetivo de reforçar os conhecimentos adquiridos por meio dos meus estudos. 
