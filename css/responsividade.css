@@ -56,10 +56,10 @@
        
     }
 
+    /* terceira seção */
 
-
-
-
-
+    .terceira-secao .container {
+        flex-direction: column;
+    }
    
 }
