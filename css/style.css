@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka One', cursive, sans-serif;
+}
+
+
+.cabecalho{
+    background: #00aeef;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.logotipo{
+    color: #fff;
+    font-weight: 500;
+}
+
+.cabecalho-nav-list-item{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+
+}
+
+.cabecalho-nav-list-item:hover{
+    border-bottom: 4px solid #e23076;
+}
+
+
+/*conteúdo principal - primeira seção*/
+
+
+
+
+.conteudo-principal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7f0f7;
+    background-image: url(../img/bg-principal.png);
+    background-size: cover;
+    
+
+}
+
+.conteudo-principal-texto{
+    padding: 50px;
+}
+
+
+span{
+    color: #e23076;
+}
+
+
+.conteudo-principal-titulo{
+    font-size: 50px;
+    color: #00aeef;
+    text-transform: uppercase;
+    line-height: 4rem;
+    
+}
+
+.conteudo-principal-paragrafo{
+    color: #3f3f3f;
+    margin: 25px 0;
+    line-height: 25px;
+   
+}
+
+.conteudo-principal-imagem {
+    width: 60%;
+    height: 600px;
+    padding: 30px 30px 0;
+    margin: 0 15px;
+   
+}
+
+.botao{
+    width: 50%;
+    height: 60px;
+    border: none;
+    background:#f04d23;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.botao:hover, .conteudo-secundario-botao:hover, .botao-produtos:hover, .enviar:hover,
+.terceira-secao-botao:hover{
+    background: #e23076;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 2px 5px 15px 2px rgba(0,0,0, 0.3);
+
+}
+
+/*conteúdo logotipo de empresas parceiras*/
+
+
+.conteudo-logo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-top: 25px;
+   
+    
+
+}
+
+.conteudo-logo-img{
+
+    width: 130px;
+    opacity: 1;
+    filter: brightness( 200% ) contrast( 80% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    
+}
+
+.conteudo-logo-img:hover{
+    filter: none;
+    transition: 0.25s;
+}
+
+
+
+/*conteúdo secundário - card*/
+
+.conteudo-secundario .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+
+}
+
+.conteudo-secundario-titulo-principal{
+    text-align: center;
+    padding-top: 150px;
+    color:#e23076;
+    font-family: 'fredoka one', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.conteudo-secundario-card{
+    background-color: #e7f0f7;
+    background-image: url(../img/bg-principal.png);
+    background-size: cover;
+    margin: 20px;
+    width: 33.33%;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.8s;
+}
+
+.conteudo-secundario-card:hover{
+    transform: scale(1.1);
+   
+}
+
+.conteudo-secundario-card-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 4px solid #e23076;
+   
+}
+
+
+.conteudo-secundario-card-titulo{
+    text-align: center;
+    padding: 20px 0;
+    color: #e23076;
+}
+
+.conteudo-secundario-card-paragrafo{
+    text-align: center;
+    padding: 20px;
+    color: #3f3f3f;
+    font-family: 'fredoka', sans-serif;
+}
+
+.conteudo-secundario-bnt,.quarta-secao-produto-botao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.conteudo-secundario-botao,.botao-produtos{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: #e23076;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+
+/* Terceira seção - Sobre*/
+
+.terceira-secao .container {
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 40px 0;
+
+}
+
+.terceira-secao-conteudo-texto{
+    padding: 40px;
+    margin: 0 10px
+}
+
+
+.terceira-secao-titulo-sobre{
+    font-size: 18px;
+    color: #e23076;
+    margin-bottom: 10px;
+}
+
+.terceira-secao-titulo-principal{
+    font-size: 34px;
+    color: #00aeef;
+    margin: 15px 0;
+}
+
+.terceira-secao-paragrafoUm{
+    font-family: 'Montserrat', sans-serif;
+    text-align:justify;
+    margin: 15px 0;
+}
+
+.terceira-secao-paragrafoDois{
+    font-family: 'Montserrat', sans-serif;
+    text-align:justify;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #00aeef;
+
+}
+
+.terceira-secao-botao{
+    width: 40%;
+    height: 40px;
+    color: #fff;
+    background: #f04d23;
+    border: none;
+    border-radius: 5px;
+    margin:10px 0
+}
+
+i{
+    margin: 0 5px;
+}
+
+
+
+/*conteúdo quarta seção - produtos*/
+
+
+.quarta-secao-produtos .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: #00aeef;
+    background-image: url(../img/bg.png);
+    background-size: cover;   
+    
+}
+
+.quarta-secao-titulo-principal{
+    text-align: center;
+    padding: 50px 0;
+    text-transform:uppercase ;
+    color: #00aeef;
+}
+
+
+.quarta-secao-produto-card-img{
+    border-radius: 15px;
+    height: 250px
+}
+
+.quarta-secao-produto-titulo{
+    font-family: 'fredoka'sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    margin: 15px 0;
+}
+
+
+.botao-produtos{
+    width: 50%;
+    height: 40px;
+    border: none;
+}
+
+.preco-produto{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+   
+}
+
+.preco-anterior-produto{
+    text-decoration: line-through;
+    color: #efefef;
+   
+}
+
+.preco-atual-produto{
+    color: #efefef;
+    font-weight: 600;
+}
+
+
+
+/* Rodapé da página */
+
+.rodape .container{
+    background:#e7f0f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: 'Montserrat';
+    text-align: center;
+ 
+   
+}
+
+.rodape-logotipo{
+    color: #00aeef;
+    font-weight: bold;
+}
+
+.rodape-endereco-titulo{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #00aeef;
+}
+
+
+.formulario .container {
+    flex-direction: column;
+    
+}
+
+
+
+label{
+    font: 12px;
+    margin: 05px 0;
+    
+}
+
+input{
+    height: 30px;
+}
+
+.enviar{
+    background: #f04d23;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;    
+}
+
+.copyrigth{
+    background: #00aeef;
+    background-image: url(../img/bg.png);
+    background-size: cover;   
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'fredoka', sans-serif;
+    font-weight: 500;
+    color: #fff;
+
+} 
+

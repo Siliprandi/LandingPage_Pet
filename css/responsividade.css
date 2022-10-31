@@ -1,0 +1,65 @@
+@media screen and (max-width: 778px) {
+    
+    .cabecalho .container {
+        flex-direction: column;
+    }
+
+    .cabecalho-nav-list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 15px 0;
+    }
+
+
+    /*conteudo principal  - primeira seção */
+
+    .conteudo-principal .container{
+        flex-direction: column;
+        
+    }
+
+    .conteudo-principal-texto{
+       text-align: center;
+    }
+
+    .conteudo-principal-titulo{
+        font-size: 45px;
+    }
+
+    /* Logotipo de empresas parceiras*/
+
+    .conteudo-logo .container {
+      flex-wrap: wrap;
+     
+    }
+
+    .conteudo-secundario .container {
+        flex-direction: column;
+      
+        
+    }
+
+    .conteudo-secundario-card{
+        width: 100%;
+    }
+
+
+    .rodape .container{
+        flex-direction: column;
+
+    }
+
+    .rodape-logotipo, .rodape-endereco-titulo {
+        margin:10px 0;
+       
+    }
+
+
+
+
+
+
+   
+}
