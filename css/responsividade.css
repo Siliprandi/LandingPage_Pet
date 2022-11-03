@@ -37,6 +37,8 @@
 
     .conteudo-secundario .container {
         flex-direction: column;
+        width: 100%;
+       
       
         
     }
@@ -60,6 +62,14 @@
 
     .terceira-secao .container {
         flex-direction: column;
+        
     }
+
+    .terceira-secao-conteudo-texto{
+        text-align: center;
+
+    }
+
+    
    
 }

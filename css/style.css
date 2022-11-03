@@ -143,13 +143,14 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6rem;
+    padding: 3rem;
+   
 
 }
 
 .conteudo-secundario-titulo-principal{
     text-align: center;
-    padding-top: 150px;
+    margin-top: 150px;
     color:#e23076;
     font-family: 'fredoka one', sans-serif;
     text-transform: uppercase;
@@ -161,7 +162,6 @@ span{
     background-image: url(../img/bg-principal.png);
     background-size: cover;
     margin: 20px;
-    width: 33.33%;
     border-radius: 25px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     transition: all 0.8s;
@@ -225,7 +225,8 @@ span{
 
 .terceira-secao-conteudo-texto{
     padding: 40px;
-    margin: 0 10px
+    margin: 0 10px;
+
 }
 
 
