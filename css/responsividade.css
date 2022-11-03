@@ -62,11 +62,22 @@
 
     .terceira-secao .container {
         flex-direction: column;
+     
         
+    }
+
+    .terceira-secao-imagem{
+        margin-bottom: 3rem;
     }
 
     .terceira-secao-conteudo-texto{
         text-align: center;
+        padding: 0;
+
+    }
+
+    .terceira-secao-botao{
+        width: 100%;
 
     }
 
