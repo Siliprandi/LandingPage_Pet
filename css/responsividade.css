@@ -25,13 +25,7 @@
     }
 
     .conteudo-principal-titulo{
-        font-size: 2.25rem;
-        line-height: 3rem;
-        
-    }
-
-    .conteudo-principal-imagem{
-        height: 5%;
+        font-size: 45px;
     }
 
     /* Logotipo de empresas parceiras*/
@@ -45,6 +39,7 @@
         flex-direction: column;
         width: 100%;
        
+      
         
     }
 
@@ -84,6 +79,8 @@
     .terceira-secao-botao{
         width: 100%;
 
-    }   
+    }
+
+    
    
 }
